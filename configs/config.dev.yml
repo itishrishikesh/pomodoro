@@ -1,0 +1,8 @@
+app_name: pomodoro
+port: 8080
+db:
+  host: localhost
+  user: postgres
+  password: postgres
+  name: pomodoro
+  port: 5432

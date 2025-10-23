@@ -11,6 +11,7 @@ import (
 func main() {
 	config, err := config.Load()
 	if err != nil {
+		fmt.Println("Error loading config:", err)
 		panic("Failed to load config")
 	}
 	r := gin.Default()
